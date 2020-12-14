@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  backend-test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-12-14T22:38:13.4098096+03:00"
+    description: Backend for t-systems tchallenge app
+    digest: bb3fab8db9361910320b6dd248a91562649e5bb51162ac16824b6dc597fa3adc
+    name: backend-test
+    type: application
+    urls:
+    - https://zanatar.github.io/t-system-tchallenge-helm-repo/backend-test-0.1.0.tgz
+    version: 0.1.0
+  front-test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-12-14T22:38:13.4098096+03:00"
+    description: frontend nginx-based server for t-systems tchallenge app
+    digest: 899784d6bd928a5f359075b57b4526e7feacb487d48f482321a31525d7ac76ca
+    name: front-test
+    type: application
+    urls:
+    - https://zanatar.github.io/t-system-tchallenge-helm-repo/front-test-0.1.0.tgz
+    version: 0.1.0
+  mongo-test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-12-14T22:38:13.4108096+03:00"
+    description: MongoDB for t-systems tchallenge app
+    digest: 0555464a080d1304587011a0026adbe4940e294c76bdce39a647158413083ca7
+    name: mongo-test
+    type: application
+    urls:
+    - https://zanatar.github.io/t-system-tchallenge-helm-repo/mongo-test-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-12-14T22:38:13.4088095+03:00"
