@@ -57,23 +57,4 @@ entries:
       version: 0.x.x
     description: anchor for all t-systems tchallenge app components
     digest: 04210d8db539a7e015afd8509c912c9c60e8c6e70ae5964feddb53fe0a9b21ec
-    name: tchallenge-helm
-    type: application
-    urls:
-    - https://zanatar.github.io/t-system-tchallenge-helm-repo/tchallenge-helm-0.1.0.tgz
-    version: 0.1.0
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2020-12-16T20:15:02.754837401Z"
-    dependencies:
-    - name: mongo-test
-      repository: https://zanatar.github.io/t-system-tchallenge-helm-repo/
-      version: 0.x.x
-    description: anchor for all t-systems tchallenge app components
-    digest: a9af222b5bcf904f378d8c0a84fb7628cd09d1cbb0610168b0aea27b680daba1
-    name: tchallenge-helm
-    type: application
-    urls:
-    - https://zanatar.github.io/t-system-tchallenge-helm-repo/tchallenge-helm-0.2.0.tgz
-    version: 0.1.0
-generated: "2020-12-16T20:15:02.748160275Z"
+    
