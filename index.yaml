@@ -3,7 +3,7 @@ entries:
   backend-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-16T18:01:14.79233703Z"
+    created: "2020-12-16T20:15:02.749556162Z"
     description: Backend for t-systems tchallenge app
     digest: bb3fab8db9361910320b6dd248a91562649e5bb51162ac16824b6dc597fa3adc
     name: backend-test
@@ -14,7 +14,7 @@ entries:
   front-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-16T18:01:14.793343932Z"
+    created: "2020-12-16T20:15:02.750488505Z"
     description: frontend nginx-based server for t-systems tchallenge app
     digest: 899784d6bd928a5f359075b57b4526e7feacb487d48f482321a31525d7ac76ca
     name: front-test
@@ -25,7 +25,7 @@ entries:
   mongo-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-16T18:01:14.79405773Z"
+    created: "2020-12-16T20:15:02.751538792Z"
     description: MongoDB for t-systems tchallenge app
     digest: 0555464a080d1304587011a0026adbe4940e294c76bdce39a647158413083ca7
     name: mongo-test
@@ -36,7 +36,21 @@ entries:
   tchallenge-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-16T18:01:14.796009818Z"
+    created: "2020-12-16T20:15:02.755957801Z"
+    dependencies:
+    - name: mongo-test
+      repository: https://zanatar.github.io/t-system-tchallenge-helm-repo/
+      version: 0.x.x
+    description: anchor for all t-systems tchallenge app components
+    digest: 3489ea343b647472abb75477bc056b58b79e6570a7e9be433257a2054fce7831
+    name: tchallenge-helm
+    type: application
+    urls:
+    - https://zanatar.github.io/t-system-tchallenge-helm-repo/tchallenge-helm-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-12-16T20:15:02.753249859Z"
     dependencies:
     - name: mongo-test
       repository: https://zanatar.github.io/t-system-tchallenge-helm-repo/
@@ -50,7 +64,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-16T18:01:14.797618785Z"
+    created: "2020-12-16T20:15:02.754837401Z"
     dependencies:
     - name: mongo-test
       repository: https://zanatar.github.io/t-system-tchallenge-helm-repo/
@@ -62,4 +76,4 @@ entries:
     urls:
     - https://zanatar.github.io/t-system-tchallenge-helm-repo/tchallenge-helm-0.2.0.tgz
     version: 0.1.0
-generated: "2020-12-16T18:01:14.791191511Z"
+generated: "2020-12-16T20:15:02.748160275Z"
