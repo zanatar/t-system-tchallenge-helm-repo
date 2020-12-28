@@ -3,7 +3,7 @@ entries:
   backend-dev:
   - apiVersion: v2
     appVersion: 1.16.2
-    created: "2020-12-27T14:03:53.383044363Z"
+    created: "2020-12-28T21:54:37.92803815Z"
     description: Backend for t-systems tchallenge app
     digest: a45aebe2918553b7ea39e24d2efa1f25150de7d0d2315b7960afcdaca4cee9c1
     name: backend-dev
@@ -13,7 +13,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2020-12-27T14:03:53.382497313Z"
+    created: "2020-12-28T21:54:37.927563173Z"
     description: Backend for t-systems tchallenge app
     digest: f106a56ae19cfce02c1bc712c0750db76c58d444abcbcfc32ca56b146ce22283
     name: backend-dev
@@ -23,7 +23,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.381760342Z"
+    created: "2020-12-28T21:54:37.927121478Z"
     description: Backend for t-systems tchallenge app
     digest: c24688806a465690fb150b9e0a670836a644d87d46913ed685340d4435ef2861
     name: backend-dev
@@ -33,7 +33,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.380638556Z"
+    created: "2020-12-28T21:54:37.926355413Z"
     description: Backend for t-systems tchallenge app
     digest: 64fb6e8bf9672a6ce74ca54f0daa25dbbf55abe572bec5d3daef073656363414
     name: backend-dev
@@ -43,7 +43,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.379647206Z"
+    created: "2020-12-28T21:54:37.924369005Z"
     description: Backend for t-systems tchallenge app
     digest: 444bbbc8cbbd30a7eb26d479e23dda312a46a2e0d4c8a4f9cd6bd620956632d5
     name: backend-dev
@@ -54,7 +54,7 @@ entries:
   backend-master:
   - apiVersion: v2
     appVersion: 1.16.2
-    created: "2020-12-27T14:03:53.384469446Z"
+    created: "2020-12-28T21:54:37.929337579Z"
     description: Backend for t-systems tchallenge app
     digest: 7aa9d63d92ac044ed3398ecc00e1cb0b79961be8e067ff6b67ea029c654d1a9c
     name: backend-master
@@ -64,7 +64,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.383954972Z"
+    created: "2020-12-28T21:54:37.928889527Z"
     description: Backend for t-systems tchallenge app
     digest: 4af91692cd5ae02ac03648f147c97bc78ab4b43bb7c3e6028d74050b064bc7a8
     name: backend-master
@@ -74,7 +74,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.383516221Z"
+    created: "2020-12-28T21:54:37.928438093Z"
     description: Backend for t-systems tchallenge app
     digest: 619c2ccd4077c8691692a77b0800ac329fa90dc1189fc34e2c8cf05b0e0f6d51
     name: backend-master
@@ -85,7 +85,7 @@ entries:
   backend-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.384740952Z"
+    created: "2020-12-28T21:54:37.929771531Z"
     description: Backend for t-systems tchallenge app
     digest: 1ec8dba1067330fb82a134b4a7adf8afa76affe3ce4867bbd8655274a1423865
     name: backend-test
@@ -95,8 +95,18 @@ entries:
     version: 0.1.0
   front-dev:
   - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2020-12-28T21:54:37.932422891Z"
+    description: frontend nginx-based server for t-systems tchallenge app
+    digest: 65d1e94c78c7b0a5de3d0f64aa90b31b435b34d1886859c1a4e1dca78b179014
+    name: front-dev
+    type: application
+    urls:
+    - https://zanatar.github.io/t-system-tchallenge-helm-repo/front-dev-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.386867279Z"
+    created: "2020-12-28T21:54:37.931969197Z"
     description: frontend nginx-based server for t-systems tchallenge app
     digest: 36928145045635ab4150ac70ceb0e7b6af8a81fafd8d42d3bb7232bc8a5f7fb9
     name: front-dev
@@ -106,7 +116,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.386455744Z"
+    created: "2020-12-28T21:54:37.931552291Z"
     description: frontend nginx-based server for t-systems tchallenge app
     digest: 710cf517b9aec32a56a2cf9c75104f0124956a2b9ee555b341cff9fe11aaa77b
     name: front-dev
@@ -116,7 +126,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.38601086Z"
+    created: "2020-12-28T21:54:37.931102068Z"
     description: frontend nginx-based server for t-systems tchallenge app
     digest: f2d0cb3590bb1f0336b7052add1f471cac343dd1b91bee5e49e40eb980fdff24
     name: front-dev
@@ -126,7 +136,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.385554166Z"
+    created: "2020-12-28T21:54:37.930624455Z"
     description: frontend nginx-based server for t-systems tchallenge app
     digest: 8fb9512bed1a0154a8f6b0770df1ccb6fb5178eae4daa458df251af7d1b76432
     name: front-dev
@@ -136,7 +146,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.38515859Z"
+    created: "2020-12-28T21:54:37.93021542Z"
     description: frontend nginx-based server for t-systems tchallenge app
     digest: 6bc19a569fe6fc959b56e97cc118ed8fe4330652c84e5e319ce99075f78c0892
     name: front-dev
@@ -147,7 +157,7 @@ entries:
   front-master:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.388175406Z"
+    created: "2020-12-28T21:54:37.933746395Z"
     description: frontend nginx-based server for t-systems tchallenge app
     digest: 3204c07328663a6dc5e984e3def11a8ff3115030c27fbfe26cddd9c0c1d689bd
     name: front-master
@@ -157,7 +167,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.3877148Z"
+    created: "2020-12-28T21:54:37.93328306Z"
     description: frontend nginx-based server for t-systems tchallenge app
     digest: 4d751be4964a6395744ecb1700961f336880beba9acb0f62aed25f180edc76ad
     name: front-master
@@ -167,7 +177,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.387252744Z"
+    created: "2020-12-28T21:54:37.932831Z"
     description: frontend nginx-based server for t-systems tchallenge app
     digest: c723d34205468ac9cd80330be8cc4e5fc9e1abd31e300988b6f3e41951f5aee4
     name: front-master
@@ -178,7 +188,7 @@ entries:
   front-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.388461504Z"
+    created: "2020-12-28T21:54:37.934041702Z"
     description: frontend nginx-based server for t-systems tchallenge app
     digest: cbd272fabe6af5d4c5807fed9127a57a6d398028fb44685a457355e413f8b1b0
     name: front-test
@@ -189,7 +199,7 @@ entries:
   mongo-dev:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.390163972Z"
+    created: "2020-12-28T21:54:37.936361561Z"
     description: MongoDB for t-systems tchallenge app
     digest: 56faaba011ec4f2b19203dbd3bd30c52c57cfac9e86211b7124d9467f34430da
     name: mongo-dev
@@ -199,7 +209,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.389328277Z"
+    created: "2020-12-28T21:54:37.935424939Z"
     description: MongoDB for t-systems tchallenge app
     digest: 6f0be9442d00b29bf17ff211beb1c35b0ac2f916b0fa142b6919d4d33d35971a
     name: mongo-dev
@@ -209,7 +219,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.388826474Z"
+    created: "2020-12-28T21:54:37.93439695Z"
     description: MongoDB for t-systems tchallenge app
     digest: 49cb58b82dc337aebe7a016c4d349f30cc3c1e5f8fe42342e9017390031da7e5
     name: mongo-dev
@@ -220,7 +230,7 @@ entries:
   mongo-master:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.393125389Z"
+    created: "2020-12-28T21:54:37.938766036Z"
     description: MongoDB for t-systems tchallenge app
     digest: e605b37ddbcabd937d9eabf91105b5a62ffb41960d0f3a1b3254a05123d47a40
     name: mongo-master
@@ -230,7 +240,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.392221382Z"
+    created: "2020-12-28T21:54:37.937846776Z"
     description: MongoDB for t-systems tchallenge app
     digest: 8d6f2016d9b09b1e92c64b410380d906e4ecf6c5455519c0d7cc17154d2ff432
     name: mongo-master
@@ -240,7 +250,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.391120798Z"
+    created: "2020-12-28T21:54:37.936972953Z"
     description: MongoDB for t-systems tchallenge app
     digest: 1b7558d3ac665b57a5e3f98a9e79e429f32d53e62f347233ea52f3bcb1ef0a40
     name: mongo-master
@@ -251,7 +261,7 @@ entries:
   mongo-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-27T14:03:53.393593762Z"
+    created: "2020-12-28T21:54:37.939235161Z"
     description: MongoDB for t-systems tchallenge app
     digest: 66623fb9c31cf0766e461348964be322e813095e796a0a426056f4bdc27e34df
     name: mongo-test
@@ -259,4 +269,4 @@ entries:
     urls:
     - https://zanatar.github.io/t-system-tchallenge-helm-repo/mongo-test-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-27T14:03:53.378392855Z"
+generated: "2020-12-28T21:54:37.922807133Z"
