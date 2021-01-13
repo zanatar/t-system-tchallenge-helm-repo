@@ -3,7 +3,7 @@ entries:
   front:
   - apiVersion: v2
     appVersion: 1.18.4
-    created: "2021-01-13T14:15:31.54710888Z"
+    created: "2021-01-13T14:19:14.160398378Z"
     description: frontend nginx-based server for t-systems tchallenge app
     digest: 4113526ed7bb40c447b7cbed5acb56abacb5364bfbbba56b6a060f28992e74e3
     name: front
@@ -11,4 +11,15 @@ entries:
     urls:
     - https://zanatar.github.io/t-system-tchallenge-helm-repo/front-1.2.0.tgz
     version: 1.2.0
-generated: "2021-01-13T14:15:31.545218368Z"
+  mongo:
+  - apiVersion: v2
+    appVersion: 2.1.0
+    created: "2021-01-13T14:19:14.162467821Z"
+    description: MongoDB for t-systems tchallenge app
+    digest: 7f66fc414a9fbcae6814ee61bb9d8bbe2d6f0994f7930bdaf988b3cb078805b7
+    name: mongo
+    type: application
+    urls:
+    - https://zanatar.github.io/t-system-tchallenge-helm-repo/mongo-1.11.0.tgz
+    version: 1.11.0
+generated: "2021-01-13T14:19:14.158526182Z"
